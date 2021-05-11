@@ -1,8 +1,7 @@
-#Eclipse Core
 .project
-
-#JDT
 .classpath
-
-#target.
+.settings/
+target/
 target
+*/target/*
+*/target/**
