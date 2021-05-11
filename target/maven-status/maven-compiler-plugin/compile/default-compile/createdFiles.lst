@@ -1,0 +1,5 @@
+com\rogelio\mx\constants\ApiConstants.class
+com\rogelio\mx\test\Tests.class
+com\rogelio\mx\models\PokemonResults.class
+com\rogelio\mx\models\Pokemon.class
+com\rogelio\mx\constants\TimeOutConstants.class

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Practice Suite]">
+  <parameter name="password" value="test@123"/>
+  <parameter name="emailid" value="tester456@gmail.com"/>
+  <test name="Test Basics 1(failed)">
+    <parameter name="password" value="test@123"/>
+    <parameter name="emailid" value="tester456@gmail.com"/>
+    <classes>
+      <class name="com.rogelio.mx.test.Tests">
+        <methods>
+          <include name="testOne"/>
+        </methods>
+      </class> <!-- com.rogelio.mx.test.Tests -->
+    </classes>
+  </test> <!-- Test Basics 1(failed) -->
+</suite> <!-- Failed suite [Practice Suite] -->
